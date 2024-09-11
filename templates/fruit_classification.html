@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+</head>
+<body>
+    <div class="container1">
+        <h1>Fruit Classification</h1>
+    <nav>
+        <ul class="nav-links">
+            <!-- <li><a href="/">Home</a></li>
+            <li><a class="active" href="/fruit_classification">Fruit Classification</a></li>
+            <li><a href="/house_price_prediction">House Price Prediction</a></li> -->
+            <!-- <li><a href="pages/contact.html">Contact</a></li> -->
+        </ul>
+    </nav>
+    </div>
+
+    <div class="test2">
+        <h1><b><u>About This Project</u></b></h1>
+        <h2>This project classifies fruits using a CNN model trained on a dataset of Apples, Bananas, Grapes, Mangoes, and Strawberries.</h2>
+
+    <form id="upload-form" >
+    <div class="input-file-container">  
+        <input class="input-file" id="my-file" type="file" name="file">
+        <label tabindex="0" for="my-file" class="input-file-trigger">Select a Image...</label>
+    </div>
+    <p class="file-return"></p>
+     <div id="image-preview-container">
+        <img id="image-preview" src="#" alt="Selected Image" >
+    </div>
+    <button type="button" id="predict-button" class="btn-predict">Predict</button>
+    </form>
+    <h2 id="prediction-result" style="display: none;"></h2>
+   
+</div>
+
+<script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+
+
+    </div>
+</body>
+</html>
