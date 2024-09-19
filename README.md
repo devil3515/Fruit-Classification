@@ -23,7 +23,7 @@ The goal of this project is to build a deep learning model capable of accurately
 ## 🧰 **Setup Instructions**
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/fruit-classification-cnn.git
+   git clone https://github.com/devil3515/Fruit-Classification.git
    cd fruit-classification-cnn
    ```
 2. **Install dependencies**:
@@ -39,8 +39,6 @@ The goal of this project is to build a deep learning model capable of accurately
    ```bash
    python app.py
    ```
-6. **Access the web interface**:
-   Open your browser and go to `http://localhost:5000`, upload an image, and get predictions.
 
 ## 🏅 **Results**
 - Achieved **85% accuracy** on the test dataset.
